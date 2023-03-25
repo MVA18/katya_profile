@@ -14,20 +14,17 @@
     </head>
     <body class="bg-grey-light">
     <div id="main-content">
-    <div class="bg-cover bg-mood-image bg-center text-blue-light" style="height: 873px;">
- <!-- <img class="w-screen" height="400" src="{{ Vite::asset('resources/images/mood-image.png') }}" alt="mood-image" /> -->
- <x-navbar/>
- <div class="text-left">
-          <h1 class="mb-3">Kateryna Kladyk</h1>
-          <h4 class="mb-3">Subheading</h4>
-          <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-          >Call to action</a
-          >
+    <div class="bg-cover bg-mood-image bg-top text-blue-light" style="height: 873px;">
+<x-navbar/>
+ <div class="text-left pt-52 px-4 lg:px-24">
+          <h1 class="text-xl">Kateryna Kladyk</h1>
+          <h2 class="text-base">Graphic Designer</h4>
+          <p class="flex-no-wrap pt-10 lg:pt-8 text-4xl line-clamp-5" style="max-width:630px">
+         I am a skilled graphic and UI designer with 4 years of experience, seeking to transition into Project Management to further utilize my skills in a new role.
+        </div>
+
         </div>
 </div>
 </div>
 </body>
-
-
-
 </html>
