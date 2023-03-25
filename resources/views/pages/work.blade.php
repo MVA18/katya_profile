@@ -14,16 +14,23 @@
     </head>
     <body class="bg-grey-light">
     <div id="main-content">
-    <div class="bg-cover bg-mood-image bg-top text-blue-light" style="height: 873px;">
-<x-navbar/>
- <div class="text-left pt-52 px-4 lg:px-24">
-          <h1 class="text-xl">Kateryna Kladyk</h1>
-          <h2 class="text-base">Graphic Designer</h4>
-          <p class="flex-no-wrap pt-10 lg:pt-8 text-4xl line-clamp-5" style="max-width:630px">
-         I am a skilled graphic and UI designer with 4 years of experience, seeking to transition into Project Management to further utilize my skills in a new role.
-        </div>
+    <div class="bg-cover bg-mood-image bg-top text-blue-light" style="height: 873px; z-index: -1;">
+ <div>
+ <x-navbar/>
+ <div class="pt-52 px-4 lg:px-24">
+ <x-header/>
+ <div class="pt-10 gap-8 lg:columns-3">
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+    <x-teaser-tile/>
+</div>
 
-        </div>
 </div>
 </div>
 </body>

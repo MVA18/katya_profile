@@ -11,6 +11,8 @@ module.exports = {
             'mood-image': "url('/public/images/mood-image.png')",
           },
         colors: {
+            'black': '#090A0A',
+            'grey': '#7C7E80',
             'grey-light': '#EAEBEB',
             'blue-light': '#E6E5FF',
           },
