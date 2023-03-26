@@ -6,11 +6,11 @@
         <div class="relative flex">
             <ul class="list-style-none flex flex-row text-xl" data-te-navbar-nav-ref>
                 <li data-te-nav-item-ref>
-                    <a class="{{ request()->is('/') ? 'active [&.active]:text-blue-light' : 'text-hover' }}  hover:text-black"
+                    <a class="{{ request()->is('/') ? 'active [&.active]:text-blue-light' : (request()->is('about') ? 'text-hover' : 'text-black') }}  hover:text-neutral-500"
                         href="/" data-te-nav-link-ref>Work</a>
                 </li>
                 <li class="pl-12" data-te-nav-item-ref>
-                    <a class="{{ request()->is('about') ? 'active [&.active]:text-black' : 'text-white' }} hover:text-neutral-700"
+                    <a class="{{ request()->is('about') ? 'active [&.active]:text-black' :  (request()->is('/') ? 'text-white' : 'text-black') }} hover:text-neutral-500"
                         href="/about" data-te-nav-link-ref>About</a>
                 </li>
             </ul>

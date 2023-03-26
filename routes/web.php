@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('pages/about');
 });
+
+Route::get('/design_1', function () {
+    return view('pages/about');
+});

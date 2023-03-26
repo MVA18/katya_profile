@@ -17,6 +17,9 @@
                 <x-teaser-tile />
             </div>
         </div>
+        <div class="pt-32 lg:pt-36">
+            <x-footer />
+        </div>
     </div>
 </div>
 @endsection
