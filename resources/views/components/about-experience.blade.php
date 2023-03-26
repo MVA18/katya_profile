@@ -5,7 +5,7 @@
     <div class="lg:basis-7/12">
         <div class="grid grid-cols-2 lg:grid-cols-3 col-span-2 gap-4 lg:gap-5 pt-10 lg:pt-0">
             @foreach ($jobs as $job)
-            <div>
+            <div style="max-width: 210px;">
                 <p>{{ $job['period'] }}</p>
                 <a href="#" class="text-purple-dark hover:underline">
                     <p>{{ $job['company'] }}</p>
