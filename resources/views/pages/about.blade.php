@@ -7,7 +7,7 @@
             <x-about-header />
         </div>
         <x-about-profile />
-        <x-about-experience />
+        <x-about-experience :jobs="$jobs"/>
     </div>
 </div>
 <x-footer />

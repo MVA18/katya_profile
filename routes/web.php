@@ -18,9 +18,41 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('pages/about');
+    $jobs = [
+        [
+            'period' => '1 year',
+            'company' => 'Meetaverse',
+            'title' => 'Graphic/UI Designer'
+        ],
+        [
+            'period' => '1,5 years',
+            'company' => 'Allseated',
+            'title' => 'Graphic Designer'
+        ],
+        [
+            'period' => '8 months',
+            'company' => 'Magonova & Partners',
+            'title' => 'Graphic Designer'
+        ],
+        [
+            'period' => '2 years',
+            'company' => 'Ukrainian Book Institute',
+            'title' => 'Graphic Designer'
+        ],
+        [
+            'period' => '3 months',
+            'company' => 'PwC',
+            'title' => 'Graphic Designer'
+        ],
+        [
+            'period' => '1 year 2 months',
+            'company' => 'Taras Shevchenko National University of Kyiv',
+            'title' => 'Journalist'
+        ],
+    ];
+    return view('pages/about', ['jobs' => $jobs]);
 });
 
-Route::get('/design_1', function () {
-    return view('pages/about');
+Route::get('/design', function () {
+    return view('pages/design-page');
 });
